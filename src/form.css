@@ -1,0 +1,127 @@
+Page background
+body {
+    background-color:white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .login-container{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 500px;
+    align-content: center;
+    text-align: center;
+    
+    background-color:#d444d4;
+    color: #fff;
+    border-radius: 30px;
+  }
+  
+
+  
+ 
+  
+
+  
+  /* Button styling */
+  button {
+    width: 150px;
+    padding: 10px;
+    margin: 10px ;
+    background-color: rgb(230, 247, 242);
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    
+  }
+  
+  button:hover {
+    color: white;
+    background-color:rgb(209, 227, 45);
+    color: black;
+  }
+  
+
+  
+  input{
+    width:70%;
+    padding: 10px;
+  }
+ 
+.user-table-container {
+  position: relative;
+  left: 90%;
+  width: 100%;
+  background-color: #d444d4;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 200px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.controls input:focus,
+.controls select:focus {
+  border-color: #b326d2;
+  box-shadow: 0 0 5px rgba(79, 169, 246, 0.5);
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #d444d4;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.user-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tr:hover {
+  background-color: #e6f3ff;
+}
+
+
+.user-table td[colspan="3"] {
+  font-style: italic;
+  color: #888;
+}
